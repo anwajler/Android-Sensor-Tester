@@ -1,0 +1,1 @@
+Android Sensor Tester displays information about all sensors and their properties (name, max range, power, vendor, version, min delay, resolution).
