@@ -4,16 +4,21 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
+    <Button
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="Share"
+		    android:id="@+id/share"		
+    />
     <ScrollView 
     	android:id="@+id/ScrollView01" 
     	android:layout_width="fill_parent" 
     	android:layout_height="wrap_content">
-		<TextView  
+		<EditText
 		    android:layout_width="fill_parent" 
 		    android:layout_height="wrap_content" 
 		    android:text=""
 		    android:id="@+id/content"
-
 		    />
-	</ScrollView>
+	</ScrollView>	
 </LinearLayout>
